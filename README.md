@@ -1,6 +1,6 @@
 # MusicaWeb
 
-A music web app split into two parts: a **backend** (REST API built with Spring Boot) and a **frontend** (built with React, coming soon).
+A music web app split into two parts: a **backend** (REST API built with Spring Boot) and a **frontend** (starting with plain HTML/CSS, migrating to React later on).
 
 > ⚠️ Work in progress. The backend is already structured (entities created), but the repository and controller layers still need to be implemented. The frontend hasn't been added yet.
 
@@ -9,7 +9,7 @@ A music web app split into two parts: a **backend** (REST API built with Spring 
 ```
 webMusic/
 ├── musicaweb-back/     # REST API built with Java + Spring Boot
-└── musicaweb-front/    # React frontend (coming soon)
+└── musicaweb-front/    # HTML/CSS frontend (coming soon), later migrating to React
 ```
 
 ## Backend
@@ -33,14 +33,15 @@ The API runs by default on `http://localhost:8080`.
 
 ## Frontend
 
-Not implemented yet. Will be built with **React** in an upcoming step.
+Not implemented yet. Will start as a simple **HTML/CSS** interface, later migrating to **React**.
 
 ## Next steps
 
 - Implement the repositories (data persistence)
 - Implement the REST controllers (API endpoints)
 - Set up the database connection
-- Build the React frontend and integrate it with the API
+- Build the HTML/CSS frontend and integrate it with the API
+- Migrate the frontend to React
 
 ---
 
