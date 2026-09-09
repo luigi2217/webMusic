@@ -1,47 +1,47 @@
 # MusicaWeb
 
-Aplicação de música desenvolvida como projeto acadêmico (disciplina de Engenharia de Software III, FIPP/Unoeste), dividida em duas partes: **back-end** (API REST em Spring Boot) e **front-end** (a ser adicionado).
+A music web app split into two parts: a **backend** (REST API built with Spring Boot) and a **frontend** (built with React, coming soon).
 
-> ⚠️ Projeto em desenvolvimento. O back-end já está estruturado (entidades criadas), mas as camadas de repository e controller ainda serão implementadas. O front-end ainda será adicionado.
+> ⚠️ Work in progress. The backend is already structured (entities created), but the repository and controller layers still need to be implemented. The frontend hasn't been added yet.
 
-## Estrutura do repositório
+## Repository structure
 
 ```
 webMusic/
-├── musicaweb-back/     # API REST em Java + Spring Boot
-└── musicaweb-front/    # Interface web (em breve)
+├── musicaweb-back/     # REST API built with Java + Spring Boot
+└── musicaweb-front/    # React frontend (coming soon)
 ```
 
-## Back-end
+## Backend
 
-Localizado em `musicaweb-back/`.
+Located in `musicaweb-back/`.
 
-**Tecnologias:** Java 17, Spring Boot 4.1.1 (Spring Web MVC), Maven
+**Technologies:** Java 17, Spring Boot 4.1.1 (Spring Web MVC), Maven
 
-**Como rodar:**
+**How to run:**
 ```bash
 cd musicaweb-back
 ./mvnw spring-boot:run
 ```
-A API sobe por padrão em `http://localhost:8080`.
+The API runs by default on `http://localhost:8080`.
 
-**Status atual:**
-- Entidades criadas: `Musica`, `Erro`
-- Repositories: ainda não implementados
-- Controllers REST: ainda não implementados
-- Conexão com banco de dados: ainda não configurada
+**Current status:**
+- Entities created: `Musica`, `Erro`
+- Repositories: not implemented yet
+- REST controllers: not implemented yet
+- Database connection: not configured yet
 
-## Front-end
+## Frontend
 
-Ainda não implementado. Será adicionado em uma próxima etapa do projeto.
+Not implemented yet. Will be built with **React** in an upcoming step.
 
-## Próximos passos
+## Next steps
 
-- Implementar os repositories (persistência de dados)
-- Implementar os controllers REST (endpoints da API)
-- Configurar conexão com banco de dados
-- Desenvolver o front-end e integrá-lo com a API
+- Implement the repositories (data persistence)
+- Implement the REST controllers (API endpoints)
+- Set up the database connection
+- Build the React frontend and integrate it with the API
 
 ---
 
-Projeto desenvolvido por **Luigi Sardelari Scaliante** como prática de desenvolvimento fullstack.
+Developed by **Luigi Sardelari Scaliante**.
