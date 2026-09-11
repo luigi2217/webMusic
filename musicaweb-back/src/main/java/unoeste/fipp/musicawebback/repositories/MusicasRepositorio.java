@@ -100,15 +100,13 @@ public class MusicasRepositorio {
         return resultado;
     }
 
-    public List<Musica> getAno (int dtInicio, int dtFim){
+    public List<Musica> getAno (int dtInicio, int dtFim) {
         List<Musica> resultado = new ArrayList<>();
-        for(Musica m : musicaList){
+        for (Musica m : musicaList) {
             int ano = Integer.parseInt(m.getAno());
-            if(ano >= dtInicio && ano <= dtFim)
+            if (ano >= dtInicio && ano <= dtFim)
                 resultado.add(m);
         }
         return resultado;
     }
-
-
 }
