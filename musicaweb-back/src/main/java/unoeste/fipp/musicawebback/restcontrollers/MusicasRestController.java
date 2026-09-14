@@ -24,4 +24,9 @@ public class MusicasRestController {
         return ResponseEntity.ok("");
     }
 
+    @GetMapping(value = "random-musica")
+    public ResponseEntity<Object> musicRandom(){
+        return ResponseEntity.ok(musicasRepositorio.getMusicaAleatoria());
+    }
+
 }
