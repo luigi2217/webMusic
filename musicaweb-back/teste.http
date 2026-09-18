@@ -1,0 +1,10 @@
+POST http://localhost:8080/apis/add-musica
+Content-Type: application/json
+
+{
+  "titulo": "",
+  "artista": "John Lennon",
+  "genero": "Rock",
+  "album": "Imagine",
+  "ano": "1971"
+}
