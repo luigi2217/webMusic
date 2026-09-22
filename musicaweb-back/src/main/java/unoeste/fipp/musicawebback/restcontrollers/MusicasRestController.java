@@ -74,6 +74,7 @@ public class MusicasRestController {
         return ResponseEntity.ok(musicas);
     }
 
+
     @PostMapping(value = "add-musica")
     public ResponseEntity<Object> addMusica(@RequestBody Musica novaMusica){
         if (novaMusica == null)
